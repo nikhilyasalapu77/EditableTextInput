@@ -1,0 +1,63 @@
+/* Outer background container */
+.outer-container {
+  background-color: #f5d0fe;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+/* Inner content box */
+.inner-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+}
+
+/* Heading */
+.heading {
+  color: #000000;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input and button layout */
+.input-section,
+.text-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Input field */
+.input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  width: 60%;
+}
+
+/* Buttons */
+.save-button,
+.edit-button {
+  background-color: #d946ef;
+  color: #ffffff;
+  border: none;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Saved text */
+.saved-text {
+  color: #323f4b;
+  font-size: 18px;
+}
